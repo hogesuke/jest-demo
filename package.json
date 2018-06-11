@@ -1,0 +1,26 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest ./test",
+    "test-with-coverage": "npm test -- --coverage",
+    "eslint": "eslint -c .eslintrc *.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0",
+    "mock-local-storage": "^1.0.5",
+    "ts-jest": "^22.4.6",
+    "vue-jest": "^2.6.0"
+  }
+}
